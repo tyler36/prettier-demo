@@ -21,3 +21,8 @@ jobs:
           # More about reviewdog reporter level at
           # https://github.com/reviewdog/reviewdog#reporters
           level: warning
+          # The action will look for a package.json file with prettier
+          # declared as a dependency located in the repo root directory.
+          workdir: .
+          # Run only on files with the .js extension
+          prettier_flags: *.js
