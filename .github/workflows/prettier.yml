@@ -15,7 +15,7 @@ jobs:
           # [github-pr-check,github-check,github-pr-review].
           # More about reviewdog reporters at
           # https://github.com/reviewdog/reviewdog#reporters
-          reporter: github-pr-review
+          reporter: github-pr-check
           # Change reporter level if you need
           # [info,warning,error].
           # More about reviewdog reporter level at
