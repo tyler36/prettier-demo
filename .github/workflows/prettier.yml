@@ -25,4 +25,4 @@ jobs:
           # declared as a dependency located in the repo root directory.
           workdir: .
           # Run only on files with the .js extension
-          prettier_flags: *.js
+          prettier_flags: "*.js"
