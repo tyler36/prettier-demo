@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "prettier": "./node_modules/.bin/prettier *.js",
+    "prettier:fix": "npm run prettier -- --write"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}
