@@ -1,12 +1,13 @@
 const btnScrollToTop = document.getElementById('scroll-to-top');
 
-if (btnScrollToTop) {
+if ( btnScrollToTop) {
     // OnClick: Scroll to top
     btnScrollToTop.addEventListener('click', () => {
         window.scrollTo({
             top: 0,
             behavior: 'smooth',
-        });
+        }
+        );
     });
 
     // OnScroll: Update visibility.
