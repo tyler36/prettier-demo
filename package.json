@@ -4,6 +4,6 @@
         "lint:fix": "prettier --write ."
     },
     "devDependencies": {
-        "prettier": "3.8.0"
+        "prettier": "3.8.1"
     }
 }
